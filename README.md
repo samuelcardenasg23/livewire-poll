@@ -79,11 +79,11 @@ Here are some example polls created with PollCraft:
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/pollcraft.git
+   git clone https://github.com/samuelcardenasg23/livewire-poll
    ```
 2. Navigate to the project directory
    ```
-   cd pollcraft
+   cd livewire-poll
    ```
 3. Install PHP dependencies
    ```
@@ -107,11 +107,7 @@ Here are some example polls created with PollCraft:
    ```
    php artisan migrate
    ```
-10. Seed the database (optional)
-    ```
-    php artisan db:seed
-    ```
-11. Start the local development server
+10. Start the local development server
     ```
     php artisan serve
     ```
