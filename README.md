@@ -56,11 +56,24 @@ Here are some example polls created with PollCraft:
 2. Movie Genre Preference Poll
 3. Social Media Platform Preference Poll
 
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-  <img src="assets/images/poll-results.png" width="30%" alt="Programming Language Poll">
-  <img src="assets/images/movie-poll.png" width="30%" alt="Movie Genre Poll">
-  <img src="assets/images/social-media-poll.png" width="30%" alt="Social Media Platform Poll">
-</div>
+<table>
+  <tr>
+    <td width="33%">
+      <img src="assets/images/poll-results.png" width="100%" alt="Programming Language Poll">
+    </td>
+    <td width="33%">
+      <img src="assets/images/movie-poll.png" width="100%" alt="Movie Genre Poll">
+    </td>
+    <td width="33%">
+      <img src="assets/images/social-media-poll.png" width="100%" alt="Social Media Platform Poll">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Programming Language Poll</td>
+    <td align="center">Movie Genre Poll</td>
+    <td align="center">Social Media Platform Poll</td>
+  </tr>
+</table>
 
 ## Installation
 
