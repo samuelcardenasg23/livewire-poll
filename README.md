@@ -26,7 +26,7 @@ PollCraft is a dynamic, real-time polling application built with Laravel and Liv
 2. Add options for your poll using the "Add Option" button
 3. Click "Create Poll" to publish your poll
 
-<img src="assets/images/create-poll.png" width="300" alt="Creating a new poll">
+<img src="assets/images/create-poll.png" width="400" alt="Creating a new poll">
 
 ### Voting on a Poll
 
@@ -34,19 +34,19 @@ PollCraft is a dynamic, real-time polling application built with Laravel and Liv
 2. Find the poll you want to vote on
 3. Click the "Vote" button next to your chosen option
 
-<img src="assets/images/voting-interface.png" width="300" alt="Voting interface">
+<img src="assets/images/voting-interface.png" width="400" alt="Voting interface">
 
 ### Viewing Results
 
 Results are updated in real-time as votes are cast. The number of votes for each option is displayed next to the option.
 
-<img src="assets/images/poll-results.png" width="300" alt="Poll results">
+<img src="assets/images/poll-results.png" width="400" alt="Poll results">
 
 ### Pagination
 
 PollCraft uses pagination to manage large numbers of polls efficiently. Navigate through pages of polls using the pagination controls at the bottom of the Available Polls section.
 
-<img src="assets/images/pagination.png" width="300" alt="Pagination controls">
+<img src="assets/images/pagination.png" width="400" alt="Pagination controls">
 
 ## Example Polls
 
@@ -57,9 +57,9 @@ Here are some example polls created with PollCraft:
 3. Social Media Platform Preference Poll
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-  <img src="assets/images/poll-results.png" width="33%" alt="Programming Language Poll">
-  <img src="assets/images/movie-poll.png" width="33%" alt="Movie Genre Poll">
-  <img src="assets/images/social-media-poll.png" width="33%" alt="Social Media Platform Poll">
+  <img src="assets/images/poll-results.png" width="30%" alt="Programming Language Poll">
+  <img src="assets/images/movie-poll.png" width="30%" alt="Movie Genre Poll">
+  <img src="assets/images/social-media-poll.png" width="30%" alt="Social Media Platform Poll">
 </div>
 
 ## Installation
