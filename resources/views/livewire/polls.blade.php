@@ -10,7 +10,8 @@
                         <div class="flex items-center space-x-2">
                             <span class="text-sm text-gray-400">({{ $option->votes->count() }} votes)</span>
                             <button
-                                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded text-sm transition duration-300">
+                                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded text-sm transition duration-300"
+                                wire:click="vote({{ $option->id }})">
                                 Vote
                             </button>
                         </div>
