@@ -10,21 +10,24 @@
 
     {{-- blade-formatter-disable --}}
   <style type="text/tailwindcss">
+    body {
+      @apply bg-slate-900 text-gray-100;
+    }
     .btn {
-      @apply rounded-md px-2 py-1 text-center font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50
+      @apply rounded-md px-2 py-1 text-center font-medium text-gray-100 shadow-sm ring-1 ring-gray-500 hover:bg-slate-700 transition duration-150 ease-in-out;
     }
-
     label {
-      @apply block uppercase text-slate-700 mb-2
+      @apply block uppercase text-gray-300 mb-2;
     }
-
     input,
     textarea {
-      @apply shadow-sm appearance-none border w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none
+      @apply shadow-sm appearance-none border bg-slate-800 border-gray-700 w-full py-2 px-3 text-gray-100 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500;
     }
-
     .error {
-      @apply text-red-500 text-sm
+      @apply text-red-400 text-sm;
+    }
+    .card {
+      @apply bg-slate-800 shadow-lg rounded-lg p-6 mb-6;
     }
   </style>
   {{-- blade-formatter-enable --}}
@@ -32,16 +35,16 @@
     @livewireStyles
 </head>
 
-<body class="container mx-auto mt-10 mb-10 max-w-lg">
+<body class="container mx-auto mt-10 mb-10 max-w-2xl px-4">
     @livewireScripts
 
-    <div>
-        <h2 class="text-2xl font-bold mb-4 mt-4">Create Poll</h2>
+    <div class="mb-12">
+        <h2 class="text-3xl font-bold mb-6 text-blue-400">Create Poll</h2>
         @livewire('create-poll')
     </div>
 
     <div>
-        <h2 class="text-2xl font-bold mb-4 mt-4">Available Polls</h2>
+        <h2 class="text-3xl font-bold mb-6 text-blue-400">Available Polls</h2>
         @livewire('polls')
     </div>
 </body>
